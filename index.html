@@ -7,6 +7,21 @@
   <body>
     <h1 id="someText"></h1>
 
-    <script src="home.js"></script>
+    <script>
+      let students = `[
+        {
+          name: "Qazi",
+          age: 25,
+          height: 170,
+        },
+        {
+          name: "Rafeh",
+          age: 28,
+          height: 180,
+        },
+      ]`;
+
+      console.log(JSON.parse(JSON.stringify(students)));
+    </script>
   </body>
 </html>
